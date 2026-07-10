@@ -58,3 +58,38 @@ h2 {
   padding: 16px 40px;
   font-size: 17px;
 }
+
+/* Navigation bar part */
+.nav {
+  background-color: white;
+  border-bottom: 1px solid #e6e7ec;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.inner-nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px 30px;
+}
+
+.inner-nav nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-img {
+  height: 40px;
+}
+
+.inner-nav ul {
+  display: flex;
+  gap: 30px;
+  font-weight: 500;
+}
+
+.inner-nav ul a:hover {
+  color: #2563eb;
+}
