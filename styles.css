@@ -3,3 +3,37 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: Arial, sans-serif;
+  color: #14161f;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: auto;
+  display: block;
+}
+
+button {
+  font-family: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
