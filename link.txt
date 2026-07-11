@@ -1,0 +1,5 @@
+repo ink 
+https://github.com/saaikot/first-assignment
+
+live server link
+https://saaikot.github.io/first-assignment/

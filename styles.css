@@ -405,3 +405,54 @@ h2 {
   font-weight: bold;
   margin-bottom: 15px;
 }
+
+/* FAQ  */
+.faq-item {
+  border-top: 1px solid #e6e7ec;
+  padding: 15px 0;
+}
+
+.faq-item summary {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.faq-item p {
+  margin-top: 10px;
+  color: #5c6270;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+
+.quote {
+  border-top: 1px solid #e6e7ec;
+  padding-top: 15px;
+  margin-top: 15px;
+}
+
+.quote p {
+  font-size: 14px;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+.quote footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.quote footer img {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.quote footer span {
+  font-size: 13px;
+  font-weight: bold;
+  color: #5c6270;
+}
